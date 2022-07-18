@@ -1,12 +1,12 @@
-# Alura Stickers - Imersão Java - Alura
+# Alura Stickers - Imersão Java - Alura 🚀
 
 > Projeto desenvolvido durante a Imersão Java da Alura - JUL 2022
 
-## Aula 1
+## Aula 1 👨‍💻
 
 - Consumindo uma API de filmes com Java (java.net)
 
-### Desafios desta aula
+### Desafios desta aula ✨
 
 - Consumir o endpoint de filmes mais populares da API do IMDB. Procure também, na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.
 
@@ -25,3 +25,9 @@
 #### Get Environment Variable in Java
 
 > String imdbAPIKey = System.getenv("IMDB_KEY");
+
+### Screenshot 🖼️
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-1.jpg" alt="Alura Stickers 1" width="450"/>
+
+## Aula 2 👨‍💻
