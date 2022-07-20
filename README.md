@@ -62,7 +62,7 @@
 
 #### Desafios feitos até o momento:
 
-1, 2, 3, 4, 5, 7, 9
+1, 2, 3, 4, 5, 7, 8, 9
 
 ## Aula 3 👨‍💻
 

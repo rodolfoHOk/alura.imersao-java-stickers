@@ -39,9 +39,11 @@ public class App {
         // criar instância do gerador de figurinhas
         var generator = new StickersGenerator();
 
-        for (FilmData film : filmList) {
+        for (int i = 0; i < 10; i++) {
             // criar o sticker da imagem do film
-            String imageUrl = film.getImage();
+            // Aula 2 Desafio 8 - Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior
+            FilmData film = filmList.get(i);
+            String imageUrl = film.getImage().replaceAll("(@+)(.*).jpg$", "$1.jpg");;
             InputStream inputStream = new URL(imageUrl).openStream();
             String title = film.getTitle();
             String filename = title + ".png";
@@ -60,7 +62,7 @@ public class App {
             // Aula 1 Desafio 2 - Usar sua criatividade para deixar a saída dos dados mais bonitinha
             System.out.println("\u001b[102;1m \u001b[31;1m" + title + " \u001b[m");
             System.out.println("\u001b[34;3m" + imageUrl + "\u001b[m");
-            for(int i = 0; i < Math.round(Float.parseFloat(rating)); i ++) {
+            for(int j = 0; j < Math.round(Float.parseFloat(rating)); j++) {
                 System.out.print("\u2B50");
             }
             System.out.println("\u001b[1m (" + rating + ")\u001b[m");
