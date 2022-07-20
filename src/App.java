@@ -5,16 +5,16 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        // String url = "https://api.mocki.io/v2/549a5d8b/Top250Movies";
-        String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
+        // String url = DataSourceEnum.IMDB.getUrl(); // Aula 3 Desafio 4
+        String url = DataSourceEnum.NASA.getUrl(); // Aula 3 Desafio 4
 
         // buscar os dados
         var httpClient = new AppHttpClient();
         String json = httpClient.getData(url);
         
         // extrair os dados que interessam
-        // ContentExtractor contentExtractor = new ImDbContentExtractor();
-        ContentExtractor contentExtractor = new NasaContentExtractor();
+        // ContentExtractor contentExtractor = DataSourceEnum.IMDB.getContentExtractor(); // Aula 3 Desafio 4
+        ContentExtractor contentExtractor = DataSourceEnum.NASA.getContentExtractor(); // Aula 3 Desafio 4
         List<Content> contents = contentExtractor.contentExtractor(json);
 
         // criar instância do gerador de figurinhas
@@ -23,9 +23,9 @@ public class App {
         for (int i = 0; i < 3; i++) {
             // criar o sticker da imagem
             Content content = contents.get(i);
-            String imageUrl = content.getImageUrl();
+            String imageUrl = content.imageUrl(); // Aula 3 Desafio 1
             InputStream inputStream = new URL(imageUrl).openStream();
-            String title = content.getTitle();
+            String title = content.title(); // Aula 3 Desafio 1
             String filename = title + ".png";
             String message = "TOPZERA";
             generator.create(inputStream, filename, message);

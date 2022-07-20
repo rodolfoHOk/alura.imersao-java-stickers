@@ -18,7 +18,8 @@ public class AppHttpClient {
       return body;
       
     } catch (IOException | InterruptedException ex) {
-      throw new RuntimeException(ex);
+      // Aula 3 Desafio 2 - Criar as suas próprias exceções e usá-las na classe de cliente HTTP
+      throw new RequestException(ex.getMessage());
     }
   }
 

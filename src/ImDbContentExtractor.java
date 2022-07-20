@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -8,13 +8,9 @@ public class ImDbContentExtractor implements ContentExtractor {
     var jsonParser = new JsonParser();
     List<Map<String, String>> contentMapList = jsonParser.parse(json);
 
-    List<Content> contents = new ArrayList<>();
-    for (Map<String, String> contentMap : contentMapList) {
-      String title = contentMap.get("title");
-      String imageUrl = contentMap.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
-      var content = new Content(title, imageUrl);
-      contents.add(content);
-    }
+    // Aula 3 Desafio 3 - Usar recursos do Java 8 como Streams e Lambdas, para mapear uma lista em uma outra
+    List<Content> contents = contentMapList.stream()
+      .map(contentMap -> new Content(contentMap.get("title"), contentMap.get("image"))).toList();
 
     return contents;
   }
