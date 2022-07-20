@@ -57,7 +57,7 @@ public class StickersGenerator {
     affineTransform.translate(xPosition, yPosition);
     Shape outline = textLayout.getOutline(affineTransform);
     graphics.setColor(Color.black);
-    BasicStroke stroke = new BasicStroke(4);
+    BasicStroke stroke = new BasicStroke(2);
     graphics.setStroke(stroke);
     graphics.draw(outline);
     
