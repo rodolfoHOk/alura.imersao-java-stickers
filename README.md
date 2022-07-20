@@ -64,6 +64,12 @@
 
 1, 2, 3, 4, 5, 7, 8, 9
 
+### Stickers 🖼️
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-2.jpg" alt="Alura Stickers 2" width="200"/>
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-3.jpg" alt="Alura Stickers 3" width="200"/>
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-4.jpg" alt="Alura Stickers 4" width="200"/>
+
 ## Aula 3 👨‍💻
 
 > Ligando as pontas, refatoração e orientação a objetos
@@ -79,11 +85,17 @@
 4. Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado
 
 5. Desafio supremo: consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente.
-   Repositório com APIs públicas: https://github.com/public-apis/public-apis
+   Repositório com APIs públicas: https://github.com/public-apis/public-apis3
 
 #### Desafios feitos até o momento:
 
 1, 2, 3, 4
+
+### Stickers 🖼️
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-5.jpg" alt="Alura Stickers 5" width="300"/>
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-6.jpg" alt="Alura Stickers 6" width="300"/>
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-7.jpg" alt="Alura Stickers 7" width="300"/>
 
 ## Aula 4 👨‍💻
 
