@@ -6,7 +6,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // String url = DataSourceEnum.IMDB.getUrl(); // Aula 3 Desafio 4
-        String url = DataSourceEnum.NASA.getUrl(); // Aula 3 Desafio 4
+        // String url = DataSourceEnum.NASA.getUrl(); // Aula 3 Desafio 4
+        String url = DataSourceEnum.LANGUAGES_API.getUrl(); // Aula 4
 
         // buscar os dados
         var httpClient = new AppHttpClient();
@@ -14,7 +15,8 @@ public class App {
         
         // extrair os dados que interessam
         // ContentExtractor contentExtractor = DataSourceEnum.IMDB.getContentExtractor(); // Aula 3 Desafio 4
-        ContentExtractor contentExtractor = DataSourceEnum.NASA.getContentExtractor(); // Aula 3 Desafio 4
+        // ContentExtractor contentExtractor = DataSourceEnum.NASA.getContentExtractor(); // Aula 3 Desafio 4
+        ContentExtractor contentExtractor = DataSourceEnum.LANGUAGES_API.getContentExtractor(); // Aula 4
         List<Content> contents = contentExtractor.contentExtractor(json);
 
         // criar instância do gerador de figurinhas
