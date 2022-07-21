@@ -97,14 +97,6 @@
 <img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-6.jpg" alt="Alura Stickers 6" width="300"/>
 <img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-stickers-7.jpg" alt="Alura Stickers 7" width="300"/>
 
-## Aula 4 👨‍💻
+## Aulas 4 e 5 👨‍💻
 
-### Desafios da aula 4 ✨
-
-#### Desafios feitos até o momento:
-
-## Aula 5 👨‍💻
-
-### Desafios da aula 5 ✨
-
-#### Desafios feitos até o momento:
+Outro repositório: [API Linguagens](https://github.com/rodolfoHOk/alura.imersao-java-linguagens)
