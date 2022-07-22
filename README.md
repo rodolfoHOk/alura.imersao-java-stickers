@@ -99,4 +99,14 @@
 
 ## Aulas 4 e 5 👨‍💻
 
-Outro repositório: [API Linguagens](https://github.com/rodolfoHOk/alura.imersao-java-linguagens)
+Outro repositório: [Alura Linguagens API](https://github.com/rodolfoHOk/alura.imersao-java-linguagens)
+
+## Repositórios da Imersão Java 🗄️
+
+[alura stickers](https://github.com/rodolfoHOk/alura.imersao-java-stickers)
+
+[alura linguagens api](https://github.com/rodolfoHOk/alura.imersao-java-linguagens)
+
+## API URL 🔥
+
+https://alura-languages.herokuapp.com/api/v1/linguagens

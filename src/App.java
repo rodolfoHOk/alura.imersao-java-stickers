@@ -22,7 +22,7 @@ public class App {
         // criar instância do gerador de figurinhas
         var generator = new StickersGenerator();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < contents.size(); i++) {
             // criar o sticker da imagem
             Content content = contents.get(i);
             String imageUrl = content.imageUrl(); // Aula 3 Desafio 1

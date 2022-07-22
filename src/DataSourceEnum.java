@@ -3,7 +3,7 @@ public enum DataSourceEnum {
 
   IMDB("https://api.mocki.io/v2/549a5d8b/Top250Movies", new ImDbContentExtractor()),
   NASA("https://api.mocki.io/v2/549a5d8b/NASA-APOD", new NasaContentExtractor()),
-  LANGUAGES_API("http://localhost:8080/api/v1/linguagens", new LanguageApiContentExtractor());
+  LANGUAGES_API("https://alura-languages.herokuapp.com/api/v1/linguagens", new LanguageApiContentExtractor());
 
   private String url;
   private ContentExtractor contentExtractor;
